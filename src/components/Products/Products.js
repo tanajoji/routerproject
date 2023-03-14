@@ -54,6 +54,12 @@ const Products = (props) => {
                 </div>
             </div>
         )
+    } else {
+        return(
+            <div className='content' style={{ textAlign: "center"}}>
+                <h1> Please Log In To See Products</h1>
+            </div>
+        )
     }
    
 }
