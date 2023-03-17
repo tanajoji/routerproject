@@ -2,6 +2,7 @@ import Loader from "../Products/Loader"
 import "./Button.css"
 
 const Button = ({isUserLoggedIn, handleLogin,isLoading,ifUserLoggedIn,ifUserLoggedOut}) => {
+    console.log(isUserLoggedIn, handleLogin,isLoading,ifUserLoggedIn,ifUserLoggedOut)
     if(isLoading){
         return(
             <>
